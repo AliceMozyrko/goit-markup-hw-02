@@ -110,7 +110,7 @@ background: #404BBF;
 
 /* -------------TEAM------------- */
 .team{
-  background: #FFFFFF;
+  background:#F4F4FD;
 }
 
 .team-title{
@@ -121,6 +121,11 @@ background: #404BBF;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+
+.team-item{
+  background-color:#FFFFFF
+}
+
 }
 .workers{
   color: var(--NAVY-BLUE, #2E2F42);
