@@ -6,11 +6,11 @@ body{
 /* --------------HEADER------------ */
 
 .header-logo{
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -23,9 +23,9 @@ ul {
   list-style: none;
 }
 
-.header-logo-purple{
-  color: var(--IRIS, #4D5AE5);
-  font-family: Raleway;
+.header-logo-grey{
+  color: #2e2f42;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -41,13 +41,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover, .header-menu-link:active, .contacts:hover {
+.header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .contacts:hover, .contacts:focus {
   color:#404BBF
 }
 
 .contacts{
   color: var(--SLATE, #434455);
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -85,13 +86,13 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
-.hero-btn:hover{
+.hero-btn:hover, .hero-btn:focus {
 background: #404BBF;
 }
 /* -------------------------- */
 
 /* -------------ADVANTAGES------------- */
-.advantages-subtitle{
+.features-item-subtitle{
   color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
@@ -99,7 +100,7 @@ background: #404BBF;
     letter-spacing: 0.02em;
 }
 
-.advantages-txt{
+.features-item-txt{
   color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
@@ -109,7 +110,7 @@ background: #404BBF;
 
 /* -------------TEAM------------- */
 .team{
-  background: var(--CLOUD, #F4F4FD);
+  background: #FFFFFF;
 }
 
 .team-title{
@@ -174,9 +175,9 @@ color: var(--NAVY-BLUE, #2E2F42);
   height: 312px;
   flex-shrink: 0;
 }
-.footer-logo-purple{
+.footer-logo{
 color: var(--IRIS, #4D5AE5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -186,10 +187,10 @@ color: var(--IRIS, #4D5AE5);
 
 .footer-logo-white {
     color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
