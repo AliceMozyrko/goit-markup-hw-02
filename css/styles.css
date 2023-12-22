@@ -41,11 +41,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .address-mail-item:hover, .address-mail-item:focus {
+.header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .address-mail-link:hover, .address-mail-link:focus {
   color:#404BBF
 }
-
-.address-mail-item{
+.address{
+  font-style: normal;
+}
+.address-mail-link{
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-style: normal;
@@ -60,10 +62,8 @@ ul {
 /* -------------HERO------------- */
 .hero{
   background: var(--NAVY-BLUE, #2E2F42);
-  width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
+
 .hero-title{
     color: var(--WHITE, #FFF);
     text-align: center;
