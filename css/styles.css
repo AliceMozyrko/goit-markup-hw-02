@@ -142,15 +142,16 @@ background: #404BBF;
 
 
 /* -------------PORTFOLIO------------- */
-.porfolio-title{
+.portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+
 .portfolio-subtitle{
 color: var(--NAVY-BLUE, #2E2F42);
   font-size: 20px;
@@ -158,7 +159,6 @@ color: var(--NAVY-BLUE, #2E2F42);
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
 .portfolio-txt{
   color: var(--SLATE, #434455);
     font-size: 16px;
