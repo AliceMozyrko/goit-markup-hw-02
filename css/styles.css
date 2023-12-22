@@ -41,11 +41,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .contacts:hover, .contacts:focus {
+.header-menu-link:hover, .header-menu-link:active, .header-menu-link:focus, .address-mail-item:hover, .address-mail-item:focus {
   color:#404BBF
 }
 
-.contacts{
+.address-mail-item{
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-style: normal;
@@ -121,11 +121,9 @@ background: #404BBF;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
-.team-item{
-  background-color:#FFFFFF
 }
-
+.team-item{
+  background-color: #FFFFFF
 }
 .workers{
   color: var(--NAVY-BLUE, #2E2F42);
@@ -135,7 +133,7 @@ background: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.position{
+.place{
     color: var(--SLATE, #434455);
     text-align: center;
     font-size: 16px;
